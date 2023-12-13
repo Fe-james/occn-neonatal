@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/static/css/main.eb024522.css",
+    "main.js": "/static/js/main.20b8d514.js",
+    "static/media/img1.jpeg": "/static/media/img1.37367aa38dd0f80ce11d.jpeg",
+    "static/media/OCCN2.svg": "/static/media/OCCN2.27717aea242b6ce1af520b6e89cca1f9.svg",
+    "index.html": "/index.html",
+    "main.eb024522.css.map": "/static/css/main.eb024522.css.map",
+    "main.20b8d514.js.map": "/static/js/main.20b8d514.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.eb024522.css",
+    "static/js/main.20b8d514.js"
+  ]
+}

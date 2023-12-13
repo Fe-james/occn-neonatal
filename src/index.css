@@ -1,0 +1,101 @@
+@font-face {
+  font-family:'Merriweather Sans';
+  src: url(../public/fonts/Merriweather_Sans/MerriweatherSans-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family:'Merriweather Sans Bold';
+  src: url(../public/fonts/Merriweather_Sans/MerriweatherSans-VariableFont_wght.ttf);
+  font-weight: bold;
+}    
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(4, 10, 12) !important;
+}
+
+#root,
+.app {
+  height: 100%;
+  width: 100%;
+}
+
+.app {
+  height: 100%;
+  width: 100%;
+  display: flex;    
+  position: relative;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator{
+  -webkit-appearance: none;
+  opacity: 0.8;
+  background: url(./img/calendar-icon.svg);
+  background-position: center;
+  background-size: contain;
+  width: 15px;
+  height: 15px;
+
+}
+
+
+.content {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #e0e0e0;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+.error-message {
+  min-height: 50px;
+}
+  
+::-webkit-scrollbar-thumb:hover {
+        background: #2c2b2b;
+}
+
+.fade {
+  animation: fadeOut 3s;
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+.itemFilter {
+  /* Estilos de tus elementos individuales */
+  flex: 0 0 calc(33.333% - 10px); /* Tres elementos por fila */
+  max-width: calc(33.333% - 10px); /* Ancho máximo por elemento */
+  margin: 20px; /* Espacio entre los elementos */
+  box-sizing: border-box; /* Para incluir el margen en el ancho total */
+}
+
+@media only screen and (max-width:600px){
+  .content {
+    height: 100%;
+    width: 100%;
+    margin-left:0px;
+  }
+}
+
+
+

@@ -1,0 +1,25 @@
+.div_con_fondo_desenfocado {
+    position: relative;
+    width: 100%; /* Ajusta esto a tus necesidades */
+    height: 95%; /* Ajusta esto a tus necesidades */
+  }
+  
+  .div_con_fondo_desenfocado::after{
+    content: "";
+    background: url(../../img/OCCN2.svg);
+    object-fit: cover;
+    position: absolute;
+    background-repeat: no-repeat;
+    opacity: 0.1;
+    width: 100%;
+    height: 100%;
+    left:40%;
+    background-size: 55%;
+    filter: blur(1px); /* Ajusta esto a tus necesidades */
+  }
+
+@media (max-width: 800px){
+  .div_con_fondo_desenfocado::after {
+    background-size: 30%;
+  }
+}

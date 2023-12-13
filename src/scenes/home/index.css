@@ -1,0 +1,15 @@
+.fondo_desenfocado {
+    width: 100%; /* Ajusta esto a tus necesidades */
+    height: 100%; /* Ajusta esto a tus necesidades */
+    position:absolute;
+    min-width: 300px;
+    background: url(../../img/OCCN2.svg);
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    opacity: 0.06;
+    top: 0px;
+    background-size: 28%;
+    
+  }
+  
