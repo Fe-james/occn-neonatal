@@ -56,7 +56,7 @@ const AcountMenuItem= ({title,onLogout,onHandleClick})=> {
         }}
       >
         <MenuItem sx={{fontFamily:"Merriweather Sans"}}  onClick={()=>{onHandleClick();handleClose()}}>
-          My account
+          Mi cuenta
             <SettingsOutlinedIcon fontSize='small' style={{marginLeft:"10px"}}/>
         </MenuItem>
         <MenuItem sx={{fontFamily:"Merriweather Sans"}} onClick={()=>{
@@ -64,7 +64,7 @@ const AcountMenuItem= ({title,onLogout,onHandleClick})=> {
             onLogout(localStorage.removeItem("token"),localStorage.removeItem("admin"))
             navigate("/")
         }}>
-          Logout
+          Salir
           <LogoutIcon  fontSize='small' style={{marginLeft:"36px"}}/>
         </MenuItem>
       </Menu>

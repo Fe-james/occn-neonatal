@@ -120,8 +120,8 @@ const CreateUser=({onClick,onCreate,activeAdvice})=>{
               flexDirection={"column"}
 
             >
-              <Typography fontFamily="Merriweather Sans" variant = "h2" color={colors.greenAccent[300]} >Create User</Typography>
-              <Typography fontFamily="Merriweather Sans" variant = "h5" color={colors.greenAccent[600]}>Into the data for the new user</Typography> 
+              <Typography fontFamily="Merriweather Sans" variant = "h2" color={colors.greenAccent[300]} >Crear Usuario</Typography>
+              <Typography fontFamily="Merriweather Sans" variant = "h5" color={colors.greenAccent[600]}>Introduzca los datos del nuevo usuario y <br/>recuerde poner una contraseña segura</Typography> 
             </Box>
             <Box
               height={isNonMobile?"100%":"65%"}
@@ -183,7 +183,7 @@ const CreateUser=({onClick,onCreate,activeAdvice})=>{
                       <AccountCircle sx={{ color: 'action.active', mr: 1, my: 2.5 }} />
                         <TextField
                           fullWidth
-                          label="Username"
+                          label="Usuario"
                           type="text"
                           value={values.username}
                           name="username"
@@ -199,7 +199,7 @@ const CreateUser=({onClick,onCreate,activeAdvice})=>{
                         <EmailIcon sx={{ color: 'action.active', mr: 1, my: 2.5 }} />
                         <TextField
                         fullWidth
-                        label="Mail"
+                        label="Correo"
                         type="text"
                         value={values.email}
                         name="email"
@@ -215,7 +215,7 @@ const CreateUser=({onClick,onCreate,activeAdvice})=>{
                         <PasswordIcon sx={{ color: 'action.active', mr:1,my: 2.5 }}/>
                         <TextField
                           fullWidth
-                          label="password"
+                          label="Contraseña"
                           type="password"
                           value={values.password}
                           name="password"
@@ -239,7 +239,7 @@ const CreateUser=({onClick,onCreate,activeAdvice})=>{
                         }}
                       >
                         <FormControlLabel
-                          label="Admin permissions"
+                          label="Privilegios de administrador"
                           style={{fontFamily:"Merriweather Sans"}}
                           control={    
                               <Checkbox 

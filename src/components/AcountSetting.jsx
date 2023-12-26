@@ -141,7 +141,7 @@ const AcountSetting = ({open,onClose})=>{
                         height={isNonMobile?"100%":"40%"}
                         >   
                         
-                        <Header title={"Acount Setting"}  subtitle={"Here you can change your password"}/>
+                        <Header title={"Ajustes"}  subtitle={"Protege tu cuenta con una contraseña segura"}/>
                     </Box>
                     <Box
                     display={"flex"}
@@ -156,7 +156,7 @@ const AcountSetting = ({open,onClose})=>{
                         <Box>
 
                             <Typography  variant="p" color={colors.greenSpace[200]}>
-                                Acount type:                         
+                                Tipo de cuenta:                         
                             </Typography>
                             <Typography  variant="p" color={colors.greenAccent[200]}>
                                 {
@@ -216,7 +216,7 @@ const AcountSetting = ({open,onClose})=>{
                                 <PasswordIcon sx={{ color: 'action.active', mr:1,my: 2.5 }}/>
                                 <TextField
                                     fullWidth
-                                    label="Old password"
+                                    label="Contraseña antigua"
                                     type="password"
                                     value={values.oldPassword}
                                     name="oldPassword"
@@ -231,7 +231,7 @@ const AcountSetting = ({open,onClose})=>{
                                 <PasswordIcon sx={{ color: 'action.active', mr:1,my: 2.5 }}/>
                                 <TextField
                                     fullWidth
-                                    label="New password"
+                                    label="Nueva contraseña"
                                     type="password"
                                     value={values.newPassword}
                                     name="newPassword"
@@ -246,7 +246,7 @@ const AcountSetting = ({open,onClose})=>{
                                 <PasswordIcon sx={{ color: 'action.active', mr:1,my: 2.5 }}/>
                                 <TextField
                                     fullWidth
-                                    label="Confirm password"
+                                    label="Confirmar contraseña"
                                     type="password"
                                     value={values.confirmPassword}
                                     name="confirmPassword"
